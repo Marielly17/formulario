@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+ <header class="header">
+    <img src="M (2).png">
+ </header>
+        <h1>Lista de Compras</h1>
+        <form id="productForm">
+            <label for="nome">Nome do produto</label>
+            <input type="text" id="nome" required>
+
+            <label for="valor">Preço do produto</label>
+            <input type="number" id="valor" required>
+            <button type="button" onclick="addProduvt()">Adicionar Produto</button>           
+        </form>
+
+        <h2>Produtos da Lista</h2>
+        <table>
+            <tr>
+               <th>Nome do Produto</th>
+               <th> Preço do Produto</th>       
+            </tr>
+        </table>
+    
+    
+</body>
+</html>

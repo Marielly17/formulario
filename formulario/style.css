@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(236, 205, 250);
+}
+form label{
+  display: block;
+  font-size: 20px;
+  color: rgb(86, 83, 90);
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin:20px 0;
+}
+.copyright{
+  background-color: rgb(203, 149, 253);
+  margin: 20px;
+  
+}
+.Enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: rgb(203, 149, 253);
+  color: #fffefe;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.Enviar:hover {
+background: rgb(102, 12, 185);
+transform: scale(1.2);
+}

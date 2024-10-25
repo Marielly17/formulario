@@ -1,0 +1,31 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th,td{
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(228,227, 230);
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:hover{
+    background-color: rgb(238, 119, 119);
+}
+.header{
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 50px;  
+}
